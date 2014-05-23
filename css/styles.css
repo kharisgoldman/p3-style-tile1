@@ -1,0 +1,101 @@
+body{
+	background: lightgrey;
+}
+
+/* Set Your Own Margin & Padding */
+h2, h3, p {
+	margin: 0;
+}
+
+/* Layout for Style Tile*/
+
+
+h1{
+
+	font-family: "Lobster", serif;
+	font-size: 60px;
+	line-height: 60px;
+	color: lightcyan;
+	
+}
+
+
+h2{
+
+	font-family: "lobster", serif;
+	font-size: 30px;
+	color:dimgrey;
+}
+
+h3{
+font-family: "lobster", serif;
+	font-size: 24px;
+	color: black;
+
+}
+em {
+	font-family: stint-ultra-expanded, serif;
+}
+
+p{
+	font-family: stint-ultra-expanded, serif;
+}
+
+section {
+	margin: 20px 0;
+}
+
+
+
+a{
+
+	color: white;
+
+}
+.color-1,
+.color-2,
+.color-3,
+.pattern-1,
+.pattern-2,
+.pattern-3 {
+	border: 5px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 100px;
+	width: 100px;
+}
+
+.color-1{
+	background: lightcyan;
+}
+
+.color-2{
+	background: dimgrey;
+}
+
+
+.color-3{
+	background: black;
+}
+
+
+.pattern-1 {
+	background: url("../img/blackpat.png");
+
+}
+
+.pattern-2{
+	background: url("../img/dimgreypat.png");
+}
+
+
+.pattern-3{
+	background: url("../img/lightcyanpat.png");
+}
+
+
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png");
+}
